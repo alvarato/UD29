@@ -1,0 +1,7 @@
+thead th {background-color: #EFBC78; padding: 5px;}
+
+table tr:nth-child(odd) {background-color: grey;}
+
+table tr:nth-child(even) {background-color: #EFBC75;}
+
+td{text-align: center;}

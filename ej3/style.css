@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("messi.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    display: inline-block;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    width: 300px;
+    border: solid rgb(121, 121, 121) 2px;
+    text-align: center;
+}
+
+td {
+    background-color: rgb(255, 255, 193);
+}

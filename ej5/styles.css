@@ -1,0 +1,36 @@
+table {
+    border-collapse: collapse;
+    text-align: center;
+    color: rgb(196, 34, 34);
+    font-weight: bold;
+    margin: auto;
+}
+
+th {
+    background-color: rgb(116, 211, 116);
+}
+
+td,
+th {
+    border: 2px solid black;
+    min-width: 120px;
+}
+
+/*Selecciono todas las table rows excepto la que tiene el id "especial" , y luego todos los primeros hijos de 
+estas (que serán siempre la primer columna) para que tengan un ancho mínimo de 300px*/
+tr:not(#especial)>td:first-child {
+    min-width: 300px;
+}
+
+tr:nth-child(2)>td {
+    background-color: orange;
+}
+
+tr:nth-child(3)>td {
+    background-color: rgb(245, 245, 157);
+}
+
+/*Selecciono a partir de la 4ta fila de la tabla en adelante*/
+tr:nth-child(n+4)>td {
+    background-image: url(patitas.jpg);
+}

@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    padding-left: 40px;
+}
+
+div.uno {
+    width: 250px;
+    height: 150px;
+    border: solid 4px blue;
+    background-color: skyblue;
+    background-image: url(img/piso.png), url(img/nubes.png), url(img/mario.png);
+    background-repeat: repeat-x, repeat-x, no-repeat;
+    background-position: bottom, top, bottom left;
+
+}
+
+div#dos {
+    width: 500px;
+    height: 300px;
+    border: solid 5px red;
+    margin: 20px;
+    background-color: skyblue;
+    background-image: url(img/piso.png), url(img/nubes.png), url(img/mario.png);
+    background-repeat: repeat-x, repeat-x, no-repeat;
+    background-position: bottom, top, bottom left;
+}

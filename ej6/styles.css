@@ -1,0 +1,97 @@
+* {
+    margin: 0px
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(imagenes/ac.jpg);
+}
+
+main {
+    min-width: 900px;
+    max-width: 900px;
+    height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div {
+    padding: 0px;
+    height: 170px;
+    width: 170px;
+    border: 3px solid black;
+    float: left;
+    margin: 15px;
+}
+
+div#div1 {
+    background-image: url(imagenes/mantel.jpg);
+}
+
+div#div2>div {
+    background-image: url(imagenes/mantel.jpg);
+    height: 140px;
+    width: 140px;
+    margin: 12px;
+}
+
+div#div3 {
+    background-image: url(imagenes/mantel.jpg);
+    background-size: cover;
+}
+
+div#div4 {
+    background-color: rgb(202, 202, 202);
+    background-image: url(imagenes/mantel.jpg);
+    background-size: cover;
+    background-position: center;
+    background-size: 130px 130px;
+    background-repeat: no-repeat;
+}
+
+div#div5 {
+    background-image: url(imagenes/pj1.jpg);
+    background-size: cover;
+}
+
+div#div6 {
+    background-color: beige;
+    background-image: url(imagenes/pj1.jpg);
+    background-position: center;
+    background-size: 130px 130px;
+    background-repeat: no-repeat;
+}
+
+div#div7 {
+    background: beige;
+    background-image: url(imagenes/pj2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div#div8 {
+    background-color: beige;
+    background: beige;
+    background-image: url(imagenes/pj3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div#div9 {
+    background: linear-gradient(to right, yellow, green);
+}
+
+div#div10 {
+    background: linear-gradient(white 0%, salmon 80%, rgb(187, 95, 84) 51%, rgb(219, 85, 70) 100%);
+}
+
+div#div11 {
+    background: linear-gradient(white, green);
+}
+
+div#div12 {
+    background: linear-gradient(to top, green, rgba(255, 255, 255, 0));
+}
